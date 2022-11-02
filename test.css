@@ -1,0 +1,48 @@
+ @font-face {
+   font-family: M;
+   src: url(ME.ttf);
+ }
+
+ @font-face {
+   font-family: M2;
+   src: url(Minecraft.ttf);
+ }
+
+ body{
+  margin:0% ;
+  padding:0%;
+  background: black;
+}
+
+ .test {
+   letter-spacing: 10px;
+   font-family: M2;
+   font-size: 46px;
+   margin-left: 46%;
+   position: absolute;
+   top: 20%;
+   transform: translateY(-50%);
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+ }
+
+ .test1 {
+   background-image: linear-gradient(90deg, #6a9700, #e79200, #ed502c);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   background-size: 300%;
+   background-position: -100%;
+   animation: animate 4s linear infinite alternate-reverse;
+ }
+
+ @keyframes animate {
+   from {
+     background-position: 0%;
+   }
+
+   to {
+     background-position: 200%;
+   }
+ }
